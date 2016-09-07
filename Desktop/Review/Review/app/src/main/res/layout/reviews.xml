@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:baselineAligned="false"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:padding="16dp"
+    android:minHeight="?attr/listPreferredItemHeight">
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:id="@+id/layoutContent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/Review_Author"
+            android:text="Author :"
+            android:textColor="#000"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/Review_Author_Name"
+            android:layout_toRightOf="@+id/Review_Author"
+            android:layout_marginLeft="15dp"
+            android:textColor="#000"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/txtContent"
+            android:layout_below="@+id/Review_Author"
+            android:textColor="#000"
+            android:layout_marginTop="30dp"
+            />
+
+    </RelativeLayout>
+
+</LinearLayout>

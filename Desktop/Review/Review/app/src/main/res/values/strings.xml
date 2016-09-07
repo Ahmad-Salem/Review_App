@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Review</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_detail">DetailActivity</string>
+    <string name="details">Details</string>
+    <string name="rating">Rating</string>
+    <string name="release_date">Released</string>
+    <string name="action_share">Share</string>
+    <string name="main_menu">Share</string>
+    <string name="content_authority">com.example.ahmad_elbayadi.review</string>
+
+    <!-- detailFragment strings -->
+    <string name="unFavorite">Un Favorite</string>
+    <string name="Favorite">Favorite</string>
+
+    <!-- fragment_detail.xml -->
+    <string name="Basicinformation">Basic information :</string>
+    <string name="RatingLevel">Rating Level :</string>
+    <string name="LunchedDate">Lunched Date :</string>
+    <string name="OriginalLanguage">Original Language :</string>
+    <string name="Description">Description :</string>
+    <string name="Trailers">Trailers :</string>
+    <string name="ScrollTrailers">Note : you can Scroll Trailers if Exist</string>
+    <string name="NoTrailers">....... Sorry No Trailers To Show.......</string>
+    <string name="Reviews">Reviews :</string>
+    <string name="ScrollReviews">Note : you can Scroll Reviews</string>
+    <string name="noReviews">....... Sorry No Reviews To Show.......</string>
+
+    <!-- menu -->
+    <string name="ResultFilter">Result Filter</string>
+    <string name="SortedByPopularity">Sorted By Popularity</string>
+    <string name="SortByRatingLevel">Sort By Rating Level</string>
+    <string name="MyFavorite">My Favorite</string>
+
+
+</resources>

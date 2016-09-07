@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.ahmad_elbayadi.review.MainActivity">
+
+    <group
+        android:id="@+id/group_one">
+        <item android:title="@string/ResultFilter"
+            android:icon="@android:drawable/ic_dialog_dialer"
+            app:showAsAction="always"
+            android:orderInCategory="90">
+
+            <item android:title="@string/ResultFilter"
+                >
+                <menu>
+                    <group android:checkableBehavior="single">
+                        <item
+                            android:id="@+id/group_item_popularity"
+                            android:title="@string/SortedByPopularity" />
+
+                        <item
+                            android:id="@+id/group_item_rating"
+                            android:title="@string/SortByRatingLevel"/>
+
+                        <item
+                            android:id="@+id/group_item_favorite"
+                            android:title="@string/MyFavorite"/>
+
+                    </group>
+                </menu>
+            </item>
+
+        </item>
+    </group>
+</menu>

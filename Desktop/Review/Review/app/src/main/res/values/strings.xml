@@ -21,10 +21,10 @@
     <string name="Description">Description :</string>
     <string name="Trailers">Trailers :</string>
     <string name="ScrollTrailers">Note : you can Scroll Trailers if Exist</string>
-    <string name="NoTrailers">....... Sorry No Trailers To Show.......</string>
+    <string name="NoTrailers">.......  No More Trailers To Show.......</string>
     <string name="Reviews">Reviews :</string>
     <string name="ScrollReviews">Note : you can Scroll Reviews</string>
-    <string name="noReviews">....... Sorry No Reviews To Show.......</string>
+    <string name="noReviews">.......  No More Reviews To Show.......</string>
 
     <!-- menu -->
     <string name="ResultFilter">Result Filter</string>

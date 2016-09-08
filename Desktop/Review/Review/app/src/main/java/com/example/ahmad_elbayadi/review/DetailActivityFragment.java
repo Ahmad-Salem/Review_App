@@ -295,7 +295,7 @@ public class DetailActivityFragment extends Fragment {
 
         // casting the trailer message
         TrailerMessage= (TextView) rootview.findViewById(R.id.trailer_message);
-        if(listTrailer==null)
+        if(trailer==null)
         {
             //make message visible if  TrailerList equal null
             TrailerMessage.setVisibility(View.VISIBLE);
@@ -333,7 +333,7 @@ public class DetailActivityFragment extends Fragment {
 
         // casting the trailer message
         ReviewMessage= (TextView) rootview.findViewById(R.id.Review_message);
-        if(listReview==null)
+        if(review==null)
         {
             //make message visible if  TrailerList equal null
             ReviewMessage.setVisibility(View.VISIBLE);
